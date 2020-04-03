@@ -2,8 +2,13 @@
 
 using namespace std;
 
+void HelloW(int n)
+{
+    for(int i = 0 ; i < n; i++)
+    cout << "Hello World" << endl;
+}
+
 int main() 
 {
-    for (int i = 0; i < 5; i++)
-    cout << "Hello world" << endl;
+    HelloW(10);
 }
